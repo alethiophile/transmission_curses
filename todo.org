@@ -1,0 +1,29 @@
+* Todo
+ - [X] Add all new fields to torrent entry list
+   - [X] status
+   - [X] uploaded amount
+   - [X] peers connected
+   - [X] seed/leech count
+   - [X] upload/download rates
+   - [X] done time estimate
+   - [X] ratio
+ - [ ] Handle grow/shrink of window in torrent entry list
+ - [-] Add other status colors
+   - [X] idle (cyan)
+   - [X] downloading (blue)
+   - [ ] error (red)
+   - [ ] paused (black)
+ - [ ] Add compact mode
+ - [ ] Add context-updating help text
+ - [ ] Add help popup window
+ - [ ] Add options popup window
+ - [ ] Add manipulator commands
+ - [ ] Add filter command
+ - [ ] Add search
+ - [-] Add per-torrent view window
+   - [ ] overview
+   - [ ] file list
+   - [ ] peer list
+   - [ ] tracker list
+   - [ ] chunk view
+   - [X] raw JSON

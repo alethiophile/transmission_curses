@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "transmission-curses"
+version = "0.0.1"
+description = "A curses remote interface for Transmission"
+authors = ["alethiophile <mail@alethiophile.dev>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+# urwid = "^2.1"
+urwid = { git = "https://github.com/urwid/urwid.git" }
+trio = "^0.13.0"
+asks = "^2.3"
+attrs = "^19.3.0"
+
+[tool.poetry.dev-dependencies]
+mypy = "^0.750"
+trio-typing = "^0.3.0"
+
+[tool.poetry.scripts]
+pytrans = 'transmission_curses.console:sync_main'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
